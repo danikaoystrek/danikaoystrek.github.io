@@ -1,0 +1,35 @@
+
+/* Imports*/
+
+@import '_resets.css';
+@import '_typography.css';
+
+/*Variables*/
+:root {
+  /* Colours */
+  --black: #181818;
+  --grey: #8C8C8C;
+  --red: #FF473A;
+  /* Screen sizes */
+  --mobile: 0px;
+  --tablet: 600px;
+  --laptop: 900px;
+}
+
+
+
+
+
+/* Sample of a Media Query */
+/* This will cause p to turn red on screens bigger than 900px */
+@media screen and (min-width:0) {
+  p{
+    color: var(--black);
+  }
+}
+
+@media screen and (min-width:900px) {
+  p{
+    color: var(--red);
+  }
+}
