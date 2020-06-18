@@ -1,10 +1,4 @@
-/*————————*/
-/* Resets */
-/*————————*/
 
-/* Resets default browser styles on some common elements to make them easier to work with */
-
-/* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
 }
@@ -40,17 +34,4 @@ ul, ol{
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}
-
-/* Images */
-
-img{
-	display: block;
-	width: 100%;
-}
-
-/* SVG */
-
-svg{
-	display: block;
 }

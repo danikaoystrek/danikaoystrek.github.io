@@ -1,6 +1,5 @@
 
 /* Imports*/
-
 @import 'resets.css';
 @import 'typography.css';
 
@@ -26,7 +25,7 @@
   padding-left: 20px;
   padding-right: 20px;}
   }
-  @media screen and (min-width:900px) {
+@media screen and (min-width:900px) {
     .grid{
       display: grid;
       grid-template-columns: repeat(10,1fr);
@@ -35,21 +34,9 @@
     }
 
 /*Nav*/
-
-
-
-
-
-/* Sample of a Media Query */
-/* This will cause p to turn red on screens bigger than 900px */
-@media screen and (min-width:0) {
-  p{
-    color: var(--black);
-  }
-}
-
-@media screen and (min-width:900px) {
-  p{
-    color: var(--red);
-  }
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 1 / span 10;
 }

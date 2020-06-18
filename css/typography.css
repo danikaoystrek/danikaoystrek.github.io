@@ -1,18 +1,16 @@
 
 
-
-
 h1,h2,h3,h4,h5,h6,p,li, a, input, button{
 	font-family: 'Montserrat', Helvetica, sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	margin: 0;
 	font-variant-ligatures: common-ligatures; /* for up-to-date browsers, including IE10 and Opera 21 */
-	font-kerning: normal;
-	font-feature-settings: "kern" 1, "liga" 1, "pnum" 1;
+	/*font-kerning: normal;*/
+	/*font-feature-settings: "kern" 1, "liga" 1, "pnum" 1;*/
 /* If using white text on black, to make sharper and thinner */
 /* Chrome, Safari */
--webkit-font-smoothing: antialiased;
+/*-webkit-font-smoothing: antialiased;*/
 /* Firefox */
--moz-osx-font-smoothing: grayscale;
-}
+/*-moz-osx-font-smoothing: grayscale;
+}*/
