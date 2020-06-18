@@ -5,15 +5,16 @@
 
 /*Variables*/
 :root {
-  /* Colours */
-  --black: #181818;
-  --grey: #8C8C8C;
-  --red: #FF473A;
+  /* Colours Green- light to dark*/
+  --green1: #C5CDC0;
+  --green2: #93A889;
+  --green3: #3E563E;
+  --green4: #091008;
   /* Screen sizes */
   --mobile: 0px;
   --tablet: 600px;
   --laptop: 900px;
-  
+
 }
 
 /*Grid*/
@@ -40,5 +41,5 @@ ul{
   align-items: center;
   justify-content: space-between;
   grid-column: 1 / span 10;
-  padding-top: 20px;
+  padding-top: 30px;
 }
