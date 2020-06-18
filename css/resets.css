@@ -10,6 +10,13 @@ body{
 	margin: 0;
 	padding: 0;
 }
+/*Lists*/
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
 
 /* Buttons */
 
@@ -26,12 +33,4 @@ body{
 button:active,
 button:focus {
   outline:none;*/
-}
-
-/* Lists */
-
-ul, ol{
-	margin: 0;
-	padding: 0;
-	list-style: none;
 }
