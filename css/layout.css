@@ -1,8 +1,8 @@
 
 /* Imports*/
 
-@import '_resets.css';
-@import '_typography.css';
+@import 'resets.css';
+@import 'typography.css';
 
 /*Variables*/
 :root {
