@@ -53,3 +53,7 @@ ul{
 .lavender-wrapper{
   grid-column: 8 / span 3;
 }
+
+.img-wrapper{
+  align-items: center;
+}
