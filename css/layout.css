@@ -43,3 +43,13 @@ ul{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+/*Heading*/
+.title-wrapper{
+  grid-column: 1 / span 3;
+  text-align: right;
+}
+
+.lavender-wrapper{
+  grid-column: 8 / span 3;
+}
