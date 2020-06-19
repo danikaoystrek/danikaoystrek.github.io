@@ -92,33 +92,18 @@ img{
 }
 
 /*Section 1*/
-.s1{
+.circle-wrapper{
   padding-top: 15rem;
   padding-bottom: 15rem;
-}
-.circle1{
   grid-column: 4 / span 4;
   justify-self: center;
 }
+
 
 
 /*Section 2*/
-.s2{
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-}
-.circle2{
-  grid-column: 4 / span 4;
-  justify-self: center;
-}
+
+
 
 
 /*Section 3*/
-.s3{
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-}
-.circle3{
-  grid-column: 4 / span 4;
-  justify-self: center;
-}
