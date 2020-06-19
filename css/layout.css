@@ -69,5 +69,21 @@ nav{
 
 img{
   width: 400px;
+}
+
+/*Circles*/
+.circle1{
+  height: 20rem;
+  width: 20rem;
+  background-color: #93A889;
+  border-radius: 50%;
+}
+
+
+
+/* Section 1*/
+.circle1{
+  grid-column: 4 / span 4;
+  justify-self: center;
 
 }
