@@ -125,3 +125,15 @@ img{
 
 
 /*Section 3*/
+.s3{
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  align-items: center;
+}
+.qty-wrapper{
+  grid-column: 1 / span 3;
+  text-align: right;
+}
+.price-wrapper{
+  grid-column: 8 / span 3;
+}
