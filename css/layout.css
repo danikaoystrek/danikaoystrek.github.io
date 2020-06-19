@@ -155,3 +155,11 @@ footer {
 .about{
   grid-column: 5 / span 2;
 }
+.slogan{
+  grid-column: 7 / span 2;
+  text-align: center;
+}
+.logo{
+  grid-column: 9 / span 2;
+  width: 194px;
+}
