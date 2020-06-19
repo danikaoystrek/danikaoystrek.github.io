@@ -144,4 +144,14 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  outline: 1px solid black;
+}
+.support{
+  grid-column: 1 / span 2;
+}
+.socialMedia{
+  grid-column: 3 / span 2;
+}
+.about{
+  grid-column: 5 / span 2;
 }
