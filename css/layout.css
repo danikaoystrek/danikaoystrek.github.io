@@ -54,10 +54,12 @@ nav{
 .title-wrapper{
   grid-column: 1 / span 3;
   text-align: right;
+  padding-top: 9.4rem;
 }
 
 .lavender-wrapper{
   grid-column: 8 / span 3;
+  padding-top: 16.4rem;
 }
 
 .img-wrapper{
