@@ -23,6 +23,7 @@ h1,h2,h3,h4,h5,h6,p,li, a, input, button{
 /*Nav*/
 li{
   font-size: 1.125rem;
+  font-family: 'FeijoaMed', Times, serif;
 }
 /*Font Family*/
 h1,h2{
@@ -49,13 +50,15 @@ h4{
   font-family: 'FeijoaMed', Times, serif;
 }
 h5{
+  
+}
+h6{
   font-size: 1.125rem;
   font-family: 'FeijoaBold', Times, serif;
 }
+
 /*cart button*/
-h6{
-  font-size: 2.25rem;
+  /*font-size: 2.25rem;
   line-height: 3.2rem;
   font-family: 'FeijoaBold', Times, serif;
-  color: white;
-}
+  color: white;*/
