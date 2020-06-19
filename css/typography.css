@@ -20,14 +20,19 @@ h1,h2,h3,h4,h5,h6,p,li, a, input, button{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/*Nav*/
 li{
   font-size: 1.125rem;
 }
+/*Font Families*/
 h1,h2{
   font-family: 'FeijoaDisplay', Times, serif;
 }
 h3,h4{
   font-family: 'FeijoaMed', Times, serif;
+}
+h5{
+  font-family: 'FeijoaBold', Times, serif;
 }
 h1{
   font-size: 4.8rem;
@@ -44,4 +49,8 @@ h3{
 h4{
   font-size: 1.5rem;
   line-height: 1.75rem;
+}
+h5{
+  font-size: 1.125rem;
+
 }
