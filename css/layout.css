@@ -159,7 +159,9 @@ footer {
   grid-column: 7 / span 2;
   text-align: center;
 }
-.logo{
+.logo-wrapper{
   grid-column: 9 / span 2;
-  width: 194px;
+}
+.logo{
+    width: 194px;
 }
