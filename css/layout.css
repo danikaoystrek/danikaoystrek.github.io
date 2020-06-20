@@ -150,11 +150,9 @@ footer {
 
 }
 hr{
-  border : 0;
-       height : 15px;
-       background : url(hr.gif) 50% 0 no-repeat;
-       margin : 1em 0;
-       color: black;
+  border: 0.5px solid #000000;
+  margin: auto;
+  margin-bottom: 2rem;
 
 }
 .support{
