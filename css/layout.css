@@ -177,6 +177,9 @@ hr{
 .slogan{
   grid-column: 7 / span 2;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .logo-wrapper{
   grid-column: 9 / span 2;
