@@ -7,6 +7,17 @@
 body{
   background-color: var(--green1);
 }
+/*@media only screen and (min-width: 600px) {
+  body{
+    background-color: black;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body{
+    background-color: var(--green2);
+  }
+}*/
 
 /*Variables*/
 :root {
