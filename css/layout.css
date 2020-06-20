@@ -141,12 +141,12 @@ img{
 
 /*Footer*/
 footer {
-  position: fixed;
+
   grid-column: 1 / span 10;
   left: 0;
   bottom: 0;
   width: 100%;
-  outline: 1px solid black;
+  /*outline: 1px solid black;*/
 
 }
 .support{
