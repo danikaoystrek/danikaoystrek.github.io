@@ -35,21 +35,21 @@ body{
 /*Grid*/
 @media only screen and (min-width: 0px) {
   .grid{display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 20px;
-  width: 100%;
-  max-width: 1400px;
-  margin: auto;
-  padding-left: 40px;
-  padding-right: 40px;}
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;}
   }
 @media only screen and (min-width:900px) {
-    .grid{
-      display: grid;
-      grid-template-columns: repeat(10,1fr);
-      padding-left: 40px;
-      padding-right: 40px;}
-    }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    padding-left: 40px;
+    padding-right: 40px;}
+  }
 
 /*Nav*/
 ul{
