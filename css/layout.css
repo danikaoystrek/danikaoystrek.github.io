@@ -145,11 +145,9 @@ footer {
   padding-bottom: 2rem;
   grid-column: 1 / span 10;
   width: 100%;
-  /*outline: 1px solid black;*/
-
 }
 hr{
-  border: 0.5px solid #000000;
+  border-top: 0.5px solid #000000;
   margin: auto;
 }
 .support{
