@@ -71,9 +71,11 @@ nav{
       grid-column: 1 / span 4;
   }
 }
-.lavender-wrapper{
+@media screen and (min-width:900px){}
+  .lavender-wrapper{
   grid-column: 8 / span 3;
   padding-top: 16.4rem;
+}
 }
 @media screen and (min-width: 0px){
   .lavender-wrapper{
