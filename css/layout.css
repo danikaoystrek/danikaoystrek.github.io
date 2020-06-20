@@ -154,6 +154,7 @@ hr{
        height : 15px;
        background : url(hr.gif) 50% 0 no-repeat;
        margin : 1em 0;
+       color: black;
 
 }
 .support{
