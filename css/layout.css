@@ -149,6 +149,13 @@ footer {
   /*outline: 1px solid black;*/
 
 }
+hr{
+  border : 0;
+       height : 15px;
+       background : url(hr.gif) 50% 0 no-repeat;
+       margin : 1em 0;
+
+}
 .support{
   grid-column: 1 / span 2;
 }
