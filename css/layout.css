@@ -7,13 +7,13 @@
 body{
   background-color: var(--green1);
 }
-/*@media only screen and (min-width: 600px) {
+/*@media only screen and (min-width: 200px) {
   body{
     background-color: black;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 900px) {
   body{
     background-color: var(--green2);
   }
@@ -33,7 +33,7 @@ body{
 }
 
 /*Grid*/
-@media screen and (min-width: 0px) {
+@media only screen and (min-width: 0px) {
   .grid{display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 20px;
@@ -43,7 +43,7 @@ body{
   padding-left: 40px;
   padding-right: 40px;}
   }
-@media screen and (min-width:900px) {
+@media only screen and (min-width:900px) {
     .grid{
       display: grid;
       grid-template-columns: repeat(10,1fr);
