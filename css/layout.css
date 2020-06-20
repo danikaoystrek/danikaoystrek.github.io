@@ -85,11 +85,27 @@ img{
   background-color: var(--green3);
   border-radius: 50%;
 }
-.circle3{
+/*.circle3{
   height: 20rem;
   width: 20rem;
   background-color: var(--green4);
   border-radius: 50%;
+}*/
+a{
+  display: inline-block;
+  height: 20rem;
+  width: 20rem;
+  background-color: var(--green4);
+  color: #FFFFFF;
+  font-size: 2.25rem;
+  text-decoration: none;
+  font-family: 'FeijoaBold';
+  border-radius: 50%;
+  text-align: center;
+
+}
+.button-wrapper{
+  position:relative;
 }
 .circle-wrapper{
   grid-column: 4 / span 4;

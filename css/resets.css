@@ -22,7 +22,7 @@ hr{
 
 /* Buttons */
 
-/*button {
+button {
   appearance:none;
   background:transparent;
   border:0;
@@ -34,7 +34,7 @@ hr{
 
 button:active,
 button:focus {
-  outline:none;*/
+  outline:none;
 }
 
 img{
