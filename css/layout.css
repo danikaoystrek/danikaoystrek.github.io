@@ -141,10 +141,9 @@ img{
 
 /*Footer*/
 footer {
-
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   grid-column: 1 / span 10;
-  left: 0;
-  bottom: 0;
   width: 100%;
   /*outline: 1px solid black;*/
 
@@ -152,8 +151,6 @@ footer {
 hr{
   border: 0.5px solid #000000;
   margin: auto;
-  margin-bottom: 2rem;
-
 }
 .support{
   grid-column: 1 / span 2;
