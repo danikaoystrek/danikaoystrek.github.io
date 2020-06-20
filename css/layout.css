@@ -50,33 +50,45 @@ ul{
   justify-content: space-between;
   grid-column: 1 / span 10;
 }
-@media screen and (min-width: 0px){
-  ul{
-      grid-column: 1 / span 4;
-  }
-}
 nav{
   padding-top: 2rem;
   padding-bottom: 1.5rem;
 }
 
+@media screen and (min-width: 0px){
+  ul{
+      grid-column: 1 / span 4;
+  }
+}
 /*Heading*/
 .title-wrapper{
   grid-column: 1 / span 3;
   text-align: right;
   padding-top: 9.4rem;
 }
-
+@media screen and (min-width: 0px){
+  .title-wrapper{
+      grid-column: 1 / span 4;
+  }
+}
 .lavender-wrapper{
   grid-column: 8 / span 3;
   padding-top: 16.4rem;
 }
-
+@media screen and (min-width: 0px){
+  .lavender-wrapper{
+      grid-column: 1 / span 4;
+  }
+}
 .img-wrapper{
   grid-column: 4 / span 4;
   justify-self: center;
 }
-
+@media screen and (min-width: 0px){
+  .img-wrapper{
+      grid-column: 1 / span 4;
+  }
+}
 img{
   width: 100%;
   max-width: 400px;
