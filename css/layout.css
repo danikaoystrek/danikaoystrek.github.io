@@ -2,6 +2,7 @@
 /* Imports*/
 @import 'resets.css';
 @import 'typography.css';
+@@import 'animation.css';
 
 body{
   background-color: var(--green1);
