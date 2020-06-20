@@ -4,7 +4,7 @@
 @import 'typography.css';
 
 body{
-  background-color: #C5CDC0;
+  background-color: var(--green1);
 }
 
 /*Variables*/
@@ -76,19 +76,19 @@ img{
 .circle1{
   height: 20rem;
   width: 20rem;
-  background-color: #93A889;
+  background-color: var(--green2);
   border-radius: 50%;
 }
 .circle2{
   height: 20rem;
   width: 20rem;
-  background-color: #3E563E;
+  background-color: var(--green3);
   border-radius: 50%;
 }
 .circle3{
   height: 20rem;
   width: 20rem;
-  background-color: #091008;
+  background-color: var(--green4);
   border-radius: 50%;
 }
 .circle-wrapper{
