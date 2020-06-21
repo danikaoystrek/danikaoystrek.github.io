@@ -66,6 +66,18 @@ nav{
   text-align: right;
   padding-top: 9.4rem;
 }
+  .lavender-wrapper{
+  grid-column: 8 / span 3;
+  padding-top: 16.4rem;
+}
+  .img-wrapper{
+  grid-column: 4 / span 4;
+  justify-self: center;
+}
+img{
+  width: 100%;
+  max-width: 400px;
+}
 
 @media (min-width: 0px) and (max-width:899px){
   .title-wrapper{
@@ -75,32 +87,13 @@ nav{
       justify-content: center;
       flex-direction: column;
   }
-}
-  .lavender-wrapper{
-  grid-column: 8 / span 3;
-  padding-top: 16.4rem;
-}
-
-@media (min-width: 0px) and (max-width:899px){
   .lavender-wrapper{
       grid-column: 1 / span 3;
       padding-top: 2rem;
   }
-}
-
-  .img-wrapper{
-  grid-column: 4 / span 4;
-  justify-self: center;
-}
-
-@media (min-width: 0px) and (max-width:899px){
   .img-wrapper{
       grid-column: 3 / span 2;
   }
-}
-img{
-  width: 100%;
-  max-width: 400px;
 }
 
 /*Circles*/
@@ -133,25 +126,31 @@ img{
   padding-bottom: 15rem;
   align-items: center;
 }
+
 .hydrating-wrapper{
   grid-column: 1 / span 3;
 }
-@media (min-width: 0px) and (max-width:899px){
-  .hydrating-wrapper{
-    grid-column: 2 / span 3;
-    text-align: right;
-  }
-}
+
 .vitamins-wrapper{
   grid-column: 8 / span 3;
   text-align: right;
 }
+
 @media (min-width: 0px) and (max-width:899px){
+  .s1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .hydrating-wrapper{
+    grid-column: 2 / span 3;
+    text-align: right;
+  }
   .vitamins-wrapper{
     grid-column: 1 / span 3;
     text-align: left;
   }
 }
+
 /*Section 2*/
 .s2{
   padding-top: 15rem;
@@ -161,17 +160,20 @@ img{
 .nos-wrapper{
   grid-column: 1 / span 3;
 }
-@media (min-width: 0px) and (max-width:899px){
-  .nos-wrapper{
-    grid-column: 2 / span 3;
-    text-align: right;
-  }
-}
 .ingredients-wrapper{
   grid-column: 8 / span 3;
   text-align: right;
 }
+
 @media (min-width: 0px) and (max-width:899px){
+  .s2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .nos-wrapper{
+    grid-column: 2 / span 3;
+    text-align: right;
+  }
   .ingredients-wrapper{
     grid-column: 1 / span 3;
     text-align: left;
@@ -188,16 +190,19 @@ img{
   grid-column: 1 / span 3;
   text-align: right;
 }
+.price-wrapper{
+  grid-column: 8 / span 3;
+}
+
 @media (min-width: 0px) and (max-width:899px){
+  .s3{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
   .qty-wrapper{
     grid-column: 1 / span 4;
     text-align: right;
   }
-}
-.price-wrapper{
-  grid-column: 8 / span 3;
-}
-@media (min-width: 0px) and (max-width:899px){
   .price-wrapper{
     grid-column: 1 / span 4;
   }
