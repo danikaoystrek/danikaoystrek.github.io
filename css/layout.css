@@ -144,6 +144,7 @@ img{
 
 .hydrating-wrapper{
   grid-column: 1 / span 3;
+
 }
 
 .vitamins-wrapper{
@@ -159,6 +160,7 @@ img{
   .hydrating-wrapper{
     grid-column: 2 / span 3;
     text-align: right;
+
   }
   .vitamins-wrapper{
     grid-column: 1 / span 3;
@@ -215,11 +217,11 @@ img{
     padding-bottom: 5rem;
   }
   .qty-wrapper{
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 2;
     text-align: right;
   }
   .price-wrapper{
-    grid-column: 1 / span 4;
+    grid-column: 3 / span 2;
   }
 }
 
