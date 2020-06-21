@@ -23,7 +23,7 @@ body{
 }
 
 /*Grid*/
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .grid{display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 20px;
@@ -55,7 +55,7 @@ nav{
   padding-bottom: 1.5rem;
 }
 
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   ul{
       grid-column: 1 / span 4;
   }
@@ -67,7 +67,7 @@ nav{
   padding-top: 9.4rem;
 }
 
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .title-wrapper{
       grid-column: 1 / span 2;
       padding-top: 2rem;
@@ -78,7 +78,7 @@ nav{
   padding-top: 16.4rem;
 }
 
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .lavender-wrapper{
       grid-column: 1 / span 3;
   }
@@ -89,7 +89,7 @@ nav{
   justify-self: center;
 }
 
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .img-wrapper{
       grid-column: 3 / span 2;
   }
@@ -116,9 +116,10 @@ img{
   grid-column: 4 / span 4;
   justify-self: center;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .circle-wrapper{
     grid-column: 1 / span 4;
+
   }
 }
 
@@ -131,7 +132,7 @@ img{
 .hydrating-wrapper{
   grid-column: 1 / span 3;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .hydrating-wrapper{
     grid-column: 2 / span 3;
     text-align: right;
@@ -141,7 +142,7 @@ img{
   grid-column: 8 / span 3;
   text-align: right;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .vitamins-wrapper{
     grid-column: 1 / span 3;
     text-align: left;
@@ -156,7 +157,7 @@ img{
 .nos-wrapper{
   grid-column: 1 / span 3;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .nos-wrapper{
     grid-column: 2 / span 3;
     text-align: right;
@@ -166,7 +167,7 @@ img{
   grid-column: 8 / span 3;
   text-align: right;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .ingredients-wrapper{
     grid-column: 1 / span 3;
     text-align: left;
@@ -183,7 +184,7 @@ img{
   grid-column: 1 / span 3;
   text-align: right;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .qty-wrapper{
     grid-column: 1 / span 4;
     text-align: right;
@@ -192,7 +193,7 @@ img{
 .price-wrapper{
   grid-column: 8 / span 3;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .price-wrapper{
     grid-column: 1 / span 4;
   }
@@ -205,7 +206,7 @@ footer {
   grid-column: 1 / span 10;
   width: 100%;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -220,7 +221,7 @@ hr{
 .support{
   grid-column: 1 / span 2;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .support{
     grid-column: 1 / span 4;
   }
@@ -228,7 +229,7 @@ hr{
 .socialMedia{
   grid-column: 3 / span 2;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .socialMedia{
     grid-column: 1 / span 4;
   }
@@ -236,7 +237,7 @@ hr{
 .about{
   grid-column: 5 / span 2;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .about{
     grid-column: 1 / span 4;
   }
@@ -248,7 +249,7 @@ hr{
   justify-content: center;
   flex-direction: column;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .slogan{
     grid-column: 1 / span 4;
   }
@@ -256,7 +257,7 @@ hr{
 .logo-wrapper{
   grid-column: 9 / span 2;
 }
-@media (min-width: 0px) and (max-width:600px){
+@media (min-width: 0px) and (max-width:899px){
   .logo-wrapper{
     grid-column: 1 / span 4;
   }
