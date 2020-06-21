@@ -56,10 +56,8 @@ nav{
 }
 
 @media (min-width: 0px) and (max-width:899px){
-  ul{
-      grid-column: 1 / span 4;
-  }
-  h6{
+  .hide{
+    display: none;
   }
 }
 /*Heading*/
