@@ -59,6 +59,8 @@ nav{
   ul{
       grid-column: 1 / span 4;
   }
+  h6{
+  }
 }
 /*Heading*/
 .title-wrapper{
