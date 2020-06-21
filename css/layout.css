@@ -59,7 +59,16 @@ nav{
   .hide{
     display: none;
   }
+  .ham{
+    width: 37px;
+    height: 1px;
+    background-color: black;
+    margin: 12px 0;
+    grid-column: 4 / span 1;
+  }
 }
+
+
 /*Heading*/
 .title-wrapper{
   grid-column: 1 / span 3;
