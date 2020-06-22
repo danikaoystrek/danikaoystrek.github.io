@@ -280,7 +280,7 @@ hr{
   grid-column: 9 / span 2;
 }
 .logo{
-    width: 194px;
+  width: 194px;
 }
 h6{
   padding-bottom: 1.5rem;
@@ -294,6 +294,9 @@ h6{
   }
   .logo{
       width: 150px;
+  }
+  .hide2{
+    display: none;
   }
 }
 
