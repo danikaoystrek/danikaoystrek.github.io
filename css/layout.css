@@ -233,14 +233,7 @@ footer {
   grid-column: 1 / span 10;
   width: 100%;
 }
-@media (min-width: 0px) and (max-width:899px){
-  footer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    grid-column: 1 / span 4;
-    width: 100%;
-  }
-}
+
 hr{
   border-top: 0.5px solid #000000;
   margin: auto;
@@ -312,6 +305,7 @@ h6{
   }
   footer{
     padding-top:
+    grid-column: 1 / span 4;
   }
 }
 
