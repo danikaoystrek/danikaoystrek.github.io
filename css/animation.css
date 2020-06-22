@@ -3,6 +3,6 @@ html{
 }
 
 /*Button*/
-a:hover{
+#cart:hover{
   background-color: var(--green3);
 }
