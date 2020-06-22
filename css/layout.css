@@ -316,7 +316,9 @@ h6{
 
 
 /* Dropdown */
-
+.dropdown{
+  display: none;
+}
 
 
 @media (min-width: 0px) and (max-width:899px){
