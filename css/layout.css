@@ -328,7 +328,7 @@ h6{
   color: black;
   padding: 16px;
   font-size: 16px;
-  border: none;
+  border-bottom: 1px solid black;
   cursor: pointer;
 }
 
@@ -341,6 +341,7 @@ h6{
 .dropdown {
   position: relative;
   display: inline-block;
+  grid-column: 1 / span 4;
 }
 
 /* Dropdown Content (Hidden by Default) */
