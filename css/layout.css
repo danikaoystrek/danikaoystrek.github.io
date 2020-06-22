@@ -72,6 +72,9 @@ nav{
   .ham-wrapper{
     justify-self: end;
   }
+  nav{
+    padding-top: 1.5rem;
+  }
 }
 
 
