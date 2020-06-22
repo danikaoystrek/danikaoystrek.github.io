@@ -298,6 +298,21 @@ h6{
   .hide2{
     display: none;
   }
+  h6{
+    padding-bottom: 0px;
+  }
+  .support{
+    grid-column: 1 / span 3;
+  }
+  .socialMedia{
+    grid-column: 1 / span 3;
+  }
+  .about{
+    grid-column: 1 / span 3;
+  }
+  footer{
+    padding-top:
+  }
 }
 
 /*Button*/
