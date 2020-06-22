@@ -133,7 +133,6 @@ img{
   .circle-wrapper{
     grid-column: 1 / span 4;
     position: relative;
-
   }
 }
 
@@ -162,7 +161,6 @@ img{
   .hydrating-wrapper{
     grid-column: 2 / span 3;
     text-align: right;
-    position: absolute;
 
   }
   .vitamins-wrapper{
@@ -278,18 +276,8 @@ hr{
   justify-content: center;
   flex-direction: column;
 }
-@media (min-width: 0px) and (max-width:899px){
-  .slogan{
-    grid-column: 1 / span 4;
-  }
-}
 .logo-wrapper{
   grid-column: 9 / span 2;
-}
-@media (min-width: 0px) and (max-width:899px){
-  .logo-wrapper{
-    grid-column: 1 / span 4;
-  }
 }
 .logo{
     width: 194px;
@@ -297,6 +285,18 @@ hr{
 h6{
   padding-bottom: 1.5rem;
 }
+@media (min-width: 0px) and (max-width:899px){
+  .logo-wrapper{
+    grid-column: 3 / span 2;
+  }
+  .slogan{
+    grid-column: 1 / span 2;
+  }
+  .logo{
+      width: 150px;
+  }
+}
+
 /*Button*/
 a{
   display: flex;
