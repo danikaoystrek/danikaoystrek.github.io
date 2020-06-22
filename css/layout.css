@@ -300,12 +300,15 @@ h6{
     padding-bottom: 0px;
   }
   .support{
+    display: none;
     grid-column: 1 / span 3;
   }
   .socialMedia{
+    display: none;
     grid-column: 1 / span 3;
   }
   .about{
+    display: none;
     grid-column: 1 / span 3;
   }
   footer{
