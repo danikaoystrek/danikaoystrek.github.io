@@ -135,7 +135,7 @@ img{
 @media (min-width: 0px) and (max-width:899px){
   .circle-wrapper{
     grid-column: 1 / span 4;
-    position: relative;
+
   }
 }
 
@@ -229,6 +229,24 @@ img{
   }
 }
 
+/*Button*/
+a{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  height: 20rem;
+  width: 20rem;
+  background-color: var(--green4);
+  color: #FFFFFF;
+  font-size: 2.25rem;
+  text-decoration: none;
+  font-family: 'FeijoaBold';
+  border-radius: 50%;
+  text-align: center;
+
+}
+
 /*Footer*/
 footer {
   padding-top: 2rem;
@@ -244,26 +262,11 @@ hr{
 .support{
   grid-column: 1 / span 2;
 }
-@media (min-width: 0px) and (max-width:899px){
-  .support{
-    grid-column: 1 / span 4;
-  }
-}
 .socialMedia{
   grid-column: 3 / span 2;
 }
-@media (min-width: 0px) and (max-width:899px){
-  .socialMedia{
-    grid-column: 1 / span 4;
-  }
-}
 .about{
   grid-column: 5 / span 2;
-}
-@media (min-width: 0px) and (max-width:899px){
-  .about{
-    grid-column: 1 / span 4;
-  }
 }
 .slogan{
   grid-column: 7 / span 2;
@@ -310,22 +313,4 @@ h6{
     padding-top:
     grid-column: 1 / span 4;
   }
-}
-
-/*Button*/
-a{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 400px;
-  height: 20rem;
-  width: 20rem;
-  background-color: var(--green4);
-  color: #FFFFFF;
-  font-size: 2.25rem;
-  text-decoration: none;
-  font-family: 'FeijoaBold';
-  border-radius: 50%;
-  text-align: center;
-
 }
