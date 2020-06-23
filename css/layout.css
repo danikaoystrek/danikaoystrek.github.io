@@ -137,6 +137,10 @@ img{
     grid-column: 1 / span 4;
     z-index: -1;
   }
+  .circle1{
+    grid-row: 1 / span 1;
+    position: relative;
+  }
 }
 
 /*Section 1*/
@@ -163,8 +167,11 @@ img{
   }
   .hydrating-wrapper{
     grid-column: 2 / span 3;
-    grid-row: 2 / span 1;
+    grid-row: 1 / span 1;
     text-align: right;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
 
   }
   .vitamins-wrapper{
