@@ -135,7 +135,7 @@ img{
 @media (min-width: 0px) and (max-width:899px){
   .circle-wrapper{
     grid-column: 1 / span 4;
-    z-index: -1;
+
   }
   .circle1{
     grid-row: 1 / span 1;
@@ -176,6 +176,7 @@ img{
     padding-left: 90px;
     padding-right: 20px;
     padding-top: 56.5px;
+    z-index: 2;
 
   }
   .vitamins-wrapper{
@@ -210,6 +211,7 @@ img{
     padding-left: 90px;
     padding-right: 20px;
     padding-top: 43px;
+    z-index: 2;
   }
   .ingredients-wrapper{
     grid-column: 1 / span 3;
