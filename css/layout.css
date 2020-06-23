@@ -31,7 +31,8 @@ body{
     max-width: 1400px;
     margin: auto;
     padding-left: 20px;
-    padding-right: 20px;}
+    padding-right: 20px;
+    }
   }
 @media screen and (min-width:900px) {
   .grid{
@@ -162,6 +163,7 @@ img{
   }
   .hydrating-wrapper{
     grid-column: 2 / span 3;
+    grid-row: 2 / span 1;
     text-align: right;
 
   }
@@ -221,6 +223,7 @@ img{
   }
   .qty-wrapper{
     grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
     text-align: right;
   }
   .price-wrapper{
