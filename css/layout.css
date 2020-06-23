@@ -175,6 +175,7 @@ img{
     position: absolute;
     padding-left: 90px;
     padding-right: 20px;
+    padding-top: 56.5px;
 
   }
   .vitamins-wrapper{
@@ -208,6 +209,7 @@ img{
     position: absolute;
     padding-left: 90px;
     padding-right: 20px;
+    padding-top: 43px;
   }
   .ingredients-wrapper{
     grid-column: 1 / span 3;
