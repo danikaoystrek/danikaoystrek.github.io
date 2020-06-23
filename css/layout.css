@@ -141,6 +141,9 @@ img{
     grid-row: 1 / span 1;
     position: relative;
   }
+  .circle2{
+    position: relative;
+  }
 }
 
 /*Section 1*/
@@ -170,7 +173,7 @@ img{
     grid-row: 1 / span 1;
     text-align: right;
     position: absolute;
-    padding-left: 20px;
+    padding-left: 90px;
     padding-right: 20px;
 
   }
@@ -202,6 +205,9 @@ img{
   .nos-wrapper{
     grid-column: 2 / span 3;
     text-align: right;
+    position: absolute;
+    padding-left: 90px;
+    padding-right: 20px;
   }
   .ingredients-wrapper{
     grid-column: 1 / span 3;
